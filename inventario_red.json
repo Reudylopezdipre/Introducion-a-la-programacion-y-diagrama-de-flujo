@@ -1,0 +1,263 @@
+{
+  "equipos": [
+    {
+      "nombre": "Router Principal",
+      "ip": "192.168.1.1",
+      "tipo": "Router",
+      "ubicacion": "Sala de Servidores",
+      "descripcion": "Router Cisco 2900",
+      "estado": "En línea",
+      "hostname": "192.168.1.1",
+      "latencia": 1.0,
+      "puertos_abiertos": [
+        80,
+        443,
+        53
+      ],
+      "fecha_registro": "2025-11-06 18:14:45",
+      "usuario_registro": "Sistema",
+      "ultima_verificacion": "2025-11-06 18:17:50",
+      "estadisticas": {
+        "tiempo_activo": 0,
+        "tiempo_inactivo": 0,
+        "cambios_estado": 0
+      },
+      "puertos_abiertos_anteriores": [
+        80,
+        443,
+        53
+      ]
+    },
+    {
+      "nombre": "Switch Piso 1",
+      "ip": "192.168.1.2",
+      "tipo": "Switch",
+      "ubicacion": "Piso 1",
+      "descripcion": "Switch HP 24 puertos",
+      "estado": "Fuera de línea",
+      "hostname": "192.168.1.2",
+      "latencia": null,
+      "puertos_abiertos": [],
+      "fecha_registro": "2025-11-06 18:15:05",
+      "usuario_registro": "Sistema",
+      "ultima_verificacion": "2025-11-06 18:18:09",
+      "estadisticas": {
+        "tiempo_activo": 0,
+        "tiempo_inactivo": 0,
+        "cambios_estado": 0
+      },
+      "puertos_abiertos_anteriores": []
+    },
+    {
+      "nombre": "Servidor Web",
+      "ip": "192.168.1.10",
+      "tipo": "Servidor",
+      "ubicacion": "Sala de Servidores",
+      "descripcion": "Servidor Dell R740",
+      "estado": "Fuera de línea",
+      "hostname": "192.168.1.10",
+      "latencia": null,
+      "puertos_abiertos": [],
+      "fecha_registro": "2025-11-06 18:15:25",
+      "usuario_registro": "Sistema",
+      "ultima_verificacion": "2025-11-06 18:18:29",
+      "estadisticas": {
+        "tiempo_activo": 0,
+        "tiempo_inactivo": 0,
+        "cambios_estado": 0
+      },
+      "puertos_abiertos_anteriores": []
+    },
+    {
+      "nombre": "Firewall",
+      "ip": "192.168.1.254",
+      "tipo": "Firewall",
+      "ubicacion": "Sala de Servidores",
+      "descripcion": "Fortinet 60F",
+      "estado": "Fuera de línea",
+      "hostname": "192.168.1.254",
+      "latencia": null,
+      "puertos_abiertos": [],
+      "fecha_registro": "2025-11-06 18:15:45",
+      "usuario_registro": "Sistema",
+      "ultima_verificacion": "2025-11-06 18:18:48",
+      "estadisticas": {
+        "tiempo_activo": 0,
+        "tiempo_inactivo": 0,
+        "cambios_estado": 0
+      },
+      "puertos_abiertos_anteriores": []
+    },
+    {
+      "nombre": "AP Recepción",
+      "ip": "192.168.1.20",
+      "tipo": "Access Point",
+      "ubicacion": "Recepción",
+      "descripcion": "Ubiquiti UAP-AC-PRO",
+      "estado": "Fuera de línea",
+      "hostname": "192.168.1.20",
+      "latencia": null,
+      "puertos_abiertos": [],
+      "fecha_registro": "2025-11-06 18:16:05",
+      "usuario_registro": "Sistema",
+      "ultima_verificacion": "2025-11-06 18:19:08",
+      "estadisticas": {
+        "tiempo_activo": 0,
+        "tiempo_inactivo": 0,
+        "cambios_estado": 0
+      },
+      "puertos_abiertos_anteriores": []
+    },
+    {
+      "nombre": "PC Admin",
+      "ip": "192.168.1.100",
+      "tipo": "PC",
+      "ubicacion": "Oficina Admin",
+      "descripcion": "Computadora administrativa",
+      "estado": "Fuera de línea",
+      "hostname": "192.168.1.100",
+      "latencia": null,
+      "puertos_abiertos": [],
+      "fecha_registro": "2025-11-06 18:16:25",
+      "usuario_registro": "Sistema",
+      "ultima_verificacion": "2025-11-06 18:19:27",
+      "estadisticas": {
+        "tiempo_activo": 0,
+        "tiempo_inactivo": 0,
+        "cambios_estado": 0
+      },
+      "puertos_abiertos_anteriores": []
+    },
+    {
+      "nombre": "Impresora Color",
+      "ip": "192.168.1.50",
+      "tipo": "Impresora",
+      "ubicacion": "Oficina Admin",
+      "descripcion": "HP Color LaserJet",
+      "estado": "Fuera de línea",
+      "hostname": "192.168.1.50",
+      "latencia": null,
+      "puertos_abiertos": [],
+      "fecha_registro": "2025-11-06 18:16:45",
+      "usuario_registro": "Sistema",
+      "ultima_verificacion": "2025-11-06 18:19:47",
+      "estadisticas": {
+        "tiempo_activo": 0,
+        "tiempo_inactivo": 0,
+        "cambios_estado": 0
+      },
+      "puertos_abiertos_anteriores": []
+    }
+  ],
+  "historial": [
+    {
+      "equipo": "Router Principal",
+      "tipo": "Registro",
+      "mensaje": "Equipo registrado por Sistema",
+      "nivel": "info",
+      "timestamp": "2025-11-06 18:14:45"
+    },
+    {
+      "equipo": "Switch Piso 1",
+      "tipo": "Registro",
+      "mensaje": "Equipo registrado por Sistema",
+      "nivel": "info",
+      "timestamp": "2025-11-06 18:15:05"
+    },
+    {
+      "equipo": "Servidor Web",
+      "tipo": "Registro",
+      "mensaje": "Equipo registrado por Sistema",
+      "nivel": "info",
+      "timestamp": "2025-11-06 18:15:25"
+    },
+    {
+      "equipo": "Firewall",
+      "tipo": "Registro",
+      "mensaje": "Equipo registrado por Sistema",
+      "nivel": "info",
+      "timestamp": "2025-11-06 18:15:45"
+    },
+    {
+      "equipo": "AP Recepción",
+      "tipo": "Registro",
+      "mensaje": "Equipo registrado por Sistema",
+      "nivel": "info",
+      "timestamp": "2025-11-06 18:16:05"
+    },
+    {
+      "equipo": "PC Admin",
+      "tipo": "Registro",
+      "mensaje": "Equipo registrado por Sistema",
+      "nivel": "info",
+      "timestamp": "2025-11-06 18:16:25"
+    },
+    {
+      "equipo": "Impresora Color",
+      "tipo": "Registro",
+      "mensaje": "Equipo registrado por Sistema",
+      "nivel": "info",
+      "timestamp": "2025-11-06 18:16:45"
+    },
+    {
+      "equipo": "Router Principal",
+      "tipo": "Alerta",
+      "mensaje": "Puerto HTTP abierto en router Router Principal - Posible riesgo de seguridad",
+      "nivel": "error",
+      "timestamp": "2025-11-06 18:17:50"
+    },
+    {
+      "equipo": "Router Principal",
+      "tipo": "Alerta",
+      "mensaje": "Puertos nuevos abiertos en Router Principal: [80, 443, 53]",
+      "nivel": "error",
+      "timestamp": "2025-11-06 18:17:50"
+    },
+    {
+      "equipo": "Switch Piso 1",
+      "tipo": "Alerta",
+      "mensaje": "Equipo Switch Piso 1 (192.168.1.2) está fuera de línea",
+      "nivel": "error",
+      "timestamp": "2025-11-06 18:18:09"
+    },
+    {
+      "equipo": "Servidor Web",
+      "tipo": "Alerta",
+      "mensaje": "Equipo Servidor Web (192.168.1.10) está fuera de línea",
+      "nivel": "error",
+      "timestamp": "2025-11-06 18:18:29"
+    },
+    {
+      "equipo": "Firewall",
+      "tipo": "Alerta",
+      "mensaje": "Equipo Firewall (192.168.1.254) está fuera de línea",
+      "nivel": "error",
+      "timestamp": "2025-11-06 18:18:48"
+    },
+    {
+      "equipo": "AP Recepción",
+      "tipo": "Alerta",
+      "mensaje": "Equipo AP Recepción (192.168.1.20) está fuera de línea",
+      "nivel": "error",
+      "timestamp": "2025-11-06 18:19:08"
+    },
+    {
+      "equipo": "PC Admin",
+      "tipo": "Alerta",
+      "mensaje": "Equipo PC Admin (192.168.1.100) está fuera de línea",
+      "nivel": "error",
+      "timestamp": "2025-11-06 18:19:27"
+    },
+    {
+      "equipo": "Impresora Color",
+      "tipo": "Alerta",
+      "mensaje": "Equipo Impresora Color (192.168.1.50) está fuera de línea",
+      "nivel": "error",
+      "timestamp": "2025-11-06 18:19:47"
+    }
+  ],
+  "metadata": {
+    "ultima_actualizacion": "2025-11-06 18:19:47",
+    "total_equipos": 7
+  }
+}

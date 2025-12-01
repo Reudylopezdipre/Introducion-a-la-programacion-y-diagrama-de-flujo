@@ -1,0 +1,6 @@
+timestamp,usuario,mac,ip,ssid,tipo
+2025-11-06 18:38:06,Juan Perez,aa:bb:cc:dd:ee:01,192.168.1.101,MiRedWiFi,Evento
+2025-11-06 18:38:07,Maria Garcia,aa:bb:cc:dd:ee:02,192.168.1.102,MiRedWiFi,Evento
+2025-11-06 18:38:08,Desconocido,aa:bb:cc:dd:ee:06,192.168.1.103,,Alerta
+2025-11-06 18:38:09,Juan Perez,aa:bb:cc:dd:ee:01,192.168.1.104,MiRedWiFi,Evento
+2025-11-06 18:38:10,Carlos Lopez,aa:bb:cc:dd:ee:03,192.168.1.105,MiRedWiFi,Evento

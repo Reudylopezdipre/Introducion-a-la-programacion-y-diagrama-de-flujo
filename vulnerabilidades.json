@@ -1,0 +1,781 @@
+{
+  "hosts": [
+    {
+      "direccion": "192.168.1.1",
+      "descripcion": "Router Principal",
+      "tipo": "Router",
+      "fecha_registro": "2025-11-06 19:06:13",
+      "ultimo_escaneo": "2025-11-06 19:07:39",
+      "estado": "Escaneado",
+      "servicios_encontrados": 2
+    },
+    {
+      "direccion": "192.168.1.10",
+      "descripcion": "Servidor Web",
+      "tipo": "Servidor",
+      "fecha_registro": "2025-11-06 19:06:13",
+      "ultimo_escaneo": "2025-11-06 19:07:39",
+      "estado": "Escaneado",
+      "servicios_encontrados": 1
+    },
+    {
+      "direccion": "192.168.1.20",
+      "descripcion": "Servidor Base de Datos",
+      "tipo": "Servidor",
+      "fecha_registro": "2025-11-06 19:06:13",
+      "ultimo_escaneo": "2025-11-06 19:07:39",
+      "estado": "Escaneado",
+      "servicios_encontrados": 2
+    },
+    {
+      "direccion": "192.168.1.50",
+      "descripcion": "Estación de Trabajo",
+      "tipo": "PC",
+      "fecha_registro": "2025-11-06 19:06:13",
+      "ultimo_escaneo": "2025-11-06 19:07:39",
+      "estado": "Escaneado",
+      "servicios_encontrados": 3
+    },
+    {
+      "direccion": "192.168.1.100",
+      "descripcion": "Servidor Archivos",
+      "tipo": "Servidor",
+      "fecha_registro": "2025-11-06 19:06:13",
+      "ultimo_escaneo": "2025-11-06 19:07:39",
+      "estado": "Escaneado",
+      "servicios_encontrados": 2
+    }
+  ],
+  "servicios_detectados": [
+    {
+      "host": "192.168.1.20",
+      "puerto": 21,
+      "servicio": "FTP",
+      "version": "FileZilla 0.9.60",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 5900,
+      "servicio": "VNC",
+      "version": "",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 25,
+      "servicio": "SMTP",
+      "version": "",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 80,
+      "servicio": "HTTP",
+      "version": "IIS 10.0",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 25,
+      "servicio": "SMTP",
+      "version": "",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 25,
+      "servicio": "SMTP",
+      "version": "",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 110,
+      "servicio": "POP3",
+      "version": "",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 23,
+      "servicio": "Telnet",
+      "version": "",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 53,
+      "servicio": "DNS",
+      "version": "",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 995,
+      "servicio": "POP3S",
+      "version": "",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 21,
+      "servicio": "FTP",
+      "version": "ProFTPD 1.3.5",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 3389,
+      "servicio": "RDP",
+      "version": "xrdp 0.9.13",
+      "estado": "abierto",
+      "timestamp": "2025-11-06 19:07:39"
+    }
+  ],
+  "vulnerabilidades": [
+    {
+      "host": "192.168.1.20",
+      "servicio": "FTP",
+      "version": "FileZilla 0.9.60",
+      "vulnerabilidad": "FTP Anonymous Access",
+      "severidad": "Alta",
+      "CVE": "CVE-1999-0497",
+      "descripcion": "Acceso anónimo habilitado",
+      "timestamp": "2025-11-06 19:07:01",
+      "estado": "No parcheado"
+    },
+    {
+      "host": "192.168.1.20",
+      "servicio": "FTP",
+      "version": "FileZilla 0.9.60",
+      "vulnerabilidad": "FTP Bounce Attack",
+      "severidad": "Media",
+      "CVE": "CVE-1999-0017",
+      "descripcion": "Servidor vulnerable a ataques de rebote",
+      "timestamp": "2025-11-06 19:07:01",
+      "estado": "No parcheado"
+    },
+    {
+      "host": "192.168.1.100",
+      "servicio": "FTP",
+      "version": "ProFTPD 1.3.5",
+      "vulnerabilidad": "FTP Bounce Attack",
+      "severidad": "Media",
+      "CVE": "CVE-1999-0017",
+      "descripcion": "Servidor vulnerable a ataques de rebote",
+      "timestamp": "2025-11-06 19:07:39",
+      "estado": "No parcheado"
+    },
+    {
+      "host": "192.168.1.100",
+      "servicio": "FTP",
+      "version": "ProFTPD 1.3.5",
+      "vulnerabilidad": "FTP Anonymous Access",
+      "severidad": "Alta",
+      "CVE": "CVE-1999-0497",
+      "descripcion": "Acceso anónimo habilitado",
+      "timestamp": "2025-11-06 19:07:39",
+      "estado": "No parcheado"
+    }
+  ],
+  "intentos_escaneo": [
+    {
+      "host": "192.168.1.20",
+      "puerto": 21,
+      "estado": "abierto",
+      "servicio": "FTP",
+      "version": "FileZilla 0.9.60",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 22,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 23,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 25,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 53,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 80,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 110,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 443,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 993,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 995,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 3389,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 5900,
+      "estado": "abierto",
+      "servicio": "VNC",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:01"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 21,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 22,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 23,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 25,
+      "estado": "abierto",
+      "servicio": "SMTP",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 53,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 80,
+      "estado": "abierto",
+      "servicio": "HTTP",
+      "version": "IIS 10.0",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 110,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 443,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 993,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 995,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 3389,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.1",
+      "puerto": 5900,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 21,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 22,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 23,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 25,
+      "estado": "abierto",
+      "servicio": "SMTP",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 53,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 80,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 110,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 443,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 993,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 995,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 3389,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.10",
+      "puerto": 5900,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 21,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 22,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 23,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 25,
+      "estado": "abierto",
+      "servicio": "SMTP",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 53,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 80,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 110,
+      "estado": "abierto",
+      "servicio": "POP3",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 443,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 993,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 995,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 3389,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.20",
+      "puerto": 5900,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 21,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 22,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 23,
+      "estado": "abierto",
+      "servicio": "Telnet",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 25,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 53,
+      "estado": "abierto",
+      "servicio": "DNS",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 80,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 110,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 443,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 993,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 995,
+      "estado": "abierto",
+      "servicio": "POP3S",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 3389,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.50",
+      "puerto": 5900,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 21,
+      "estado": "abierto",
+      "servicio": "FTP",
+      "version": "ProFTPD 1.3.5",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 22,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 23,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 25,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 53,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 80,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 110,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 443,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 993,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 995,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 3389,
+      "estado": "abierto",
+      "servicio": "RDP",
+      "version": "xrdp 0.9.13",
+      "timestamp": "2025-11-06 19:07:39"
+    },
+    {
+      "host": "192.168.1.100",
+      "puerto": 5900,
+      "estado": "cerrado",
+      "servicio": "desconocido",
+      "version": "",
+      "timestamp": "2025-11-06 19:07:39"
+    }
+  ],
+  "estadisticas": {
+    "total_hosts": 5,
+    "hosts_escaneados": 6,
+    "vulnerabilidades_encontradas": 4,
+    "servicios_detectados": 12
+  },
+  "metadata": {
+    "ultima_actualizacion": "2025-11-06 19:07:39",
+    "total_registros": 4
+  }
+}

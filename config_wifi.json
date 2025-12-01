@@ -1,0 +1,49 @@
+{
+  "dispositivos_autorizados": [
+    "aa:bb:cc:dd:ee:01",
+    "aa:bb:cc:dd:ee:02",
+    "aa:bb:cc:dd:ee:03",
+    "aa:bb:cc:dd:ee:04",
+    "aa:bb:cc:dd:ee:05"
+  ],
+  "dispositivos_bloqueados": [],
+  "limites_usuarios": [
+    {
+      "usuario": "Juan Perez",
+      "mac": "aa:bb:cc:dd:ee:01",
+      "limite": 3
+    },
+    {
+      "usuario": "Maria Garcia",
+      "mac": "aa:bb:cc:dd:ee:02",
+      "limite": 2
+    },
+    {
+      "usuario": "Carlos Lopez",
+      "mac": "aa:bb:cc:dd:ee:03",
+      "limite": 1
+    },
+    {
+      "usuario": "Ana Martinez",
+      "mac": "aa:bb:cc:dd:ee:04",
+      "limite": 4
+    },
+    {
+      "usuario": "Pedro Rodriguez",
+      "mac": "aa:bb:cc:dd:ee:05",
+      "limite": 2
+    }
+  ],
+  "usuarios": [
+    "Juan Perez",
+    "Maria Garcia",
+    "Carlos Lopez",
+    "Ana Martinez",
+    "Pedro Rodriguez"
+  ],
+  "configuracion": {
+    "ssid": "MiRedWiFi",
+    "limite_global": 5,
+    "tiempo_maximo": 86400
+  }
+}
